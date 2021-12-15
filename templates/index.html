@@ -17,7 +17,14 @@
     />
   </head>
   <body>
-    <h1 class="heading">About chatforia</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/downloads">Downloads</a></li>
+      </ul>
+    </nav>
+
+    <h1 class="heading" id="head">About chatforia</h1>
 
     <p class="Desc">
       <strong>chatforia</strong> is a Simple chatting Desktop app
@@ -27,6 +34,23 @@
       family <br />by just starting a server
     </p>
     <hr />
+
     <button class="btn"><a href="downloads">Download</a></button>
+
+    <h1 class="heading">News</h1>
+    <div class="card">
+      <img
+        class="imgprim"
+        src="{{ url_for('static', filename='img/olesya-grichina-6gKx3ESOoFE-unsplash.jpg') }}"
+        alt="chatforia.herokuapp.com"
+      />
+      <p class="DescCard1">
+        (Image made by
+        <a href="https://unsplash.com/@lsgr">Olesya Grichina</a>)
+      </p>
+      <p class="DescCard2">
+        v1.1 of <strong>chatforia</strong> will be rolled out
+      </p>
+    </div>
   </body>
 </html>
