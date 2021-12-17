@@ -125,3 +125,20 @@ nav ul li a:hover{
   border-radius: 4px;
   padding: 10px;
 }
+
+.table{
+  text-align: center;
+  width: 300px;
+  margin: auto;
+
+}
+th , td{
+  border: 1px solid white;
+ 
+}
+
+
+.GreatText{
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
