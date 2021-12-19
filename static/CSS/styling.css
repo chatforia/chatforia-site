@@ -97,6 +97,7 @@ body {
 
 
 nav{
+  
   position: sticky;
   top: 0;
   background-color: blue;
@@ -111,7 +112,9 @@ nav ul{
 
 nav ul li{
   padding: 10px;
+  padding-top: 40px;
   color: white;
+
 }
 
 nav ul li a{
@@ -147,4 +150,9 @@ th , td{
   display: flex;
   flex-direction: row;
   
+}
+
+.chatforia{
+  width: 100px;
+  height: 100px;
 }

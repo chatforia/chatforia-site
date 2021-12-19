@@ -42,10 +42,12 @@
       name="google-site-verification"
       content="kz7TqHOimgsW_F2vsqfljm3QlHwCkokmm3MtCwAvnDg"
     />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
   </head>
   <body>
     <nav>
       <ul>
+        <img src="{{ url_for('static', filename='img/Chat Foria main logo.png') }}" alt="chatforia.herokuapp.com" class="chatforia">
         <li><a href="/">Home</a></li>
         <li><a href="/downloads">Downloads</a></li>
       </ul>
