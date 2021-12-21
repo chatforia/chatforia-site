@@ -29,7 +29,11 @@
 
       gtag("config", "G-TT7S7PZ5RL");
     </script>
-    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename='img/favicon.ico') }}"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <p class="Desc">Downloads Version below</p>
@@ -60,6 +64,17 @@
       </thead>
 
       <tbody>
+        <tr>
+          <td><a href="/V1.2.0patchnotes">V1.2.0</a></td>
+          <td>
+            <a
+              href="{{ url_for('static', filename='versions/chatforia 1.2.0.msi') }}"
+              download="Chatforia 1.2.0 x86.msi"
+              >Download</a
+            >
+          </td>
+          <td>chatforia</td>
+        </tr>
         <tr>
           <td><a href="/V1.1.0patchnotes">V1.1.0</a></td>
           <td>

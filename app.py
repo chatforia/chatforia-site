@@ -30,5 +30,9 @@ def v1011patchnotes():
 def v110patchnotes():
     return render_template("V1.1.0patchnotes.html")
 
+@app.route("/V1.2.0patchnotes")
+def v120patchnotes():
+    return render_template("V1.2.0patchnotes.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
