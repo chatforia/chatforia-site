@@ -147,12 +147,29 @@ th , td{
 }
 
 #cards{
-  display: flex;
-  flex-direction: row;
+  /* display: inline-flex; */
+  /* flex-direction: row; */
+  width: fit-content;
+  
   
 }
 
 .chatforia{
   width: 100px;
   height: 100px;
+}
+
+footer{
+  margin-top: 10px;
+  display: block;
+  width: 1255px;
+  padding: 10px;
+  background-color: red;
+
+}
+footer p{
+  display: block;
+  text-align: center;
+  width: 100%;
+  /* margin: auto; */
 }
